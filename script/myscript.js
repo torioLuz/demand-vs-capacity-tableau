@@ -34,6 +34,8 @@ $(document).ready(function(){
 
 	$('.scenario-button').on('click', function(e){
 		// e.preventDefault();
+		$('.scenario-button').removeClass('active');
+		$(this).addClass('active')
 		filterScenario($(this).text());
 
 
