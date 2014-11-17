@@ -49,7 +49,7 @@ $(document).ready(function(){
 
 		});
 
-		if (show === $('#intro')){
+		if (show.is("#intro")){
 			$('.intro-link').addClass("active").siblings("li").removeClass("active");
 
 
