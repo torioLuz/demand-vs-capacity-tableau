@@ -37,7 +37,7 @@ $(document).ready(function(){
 	$('.scenario-button').on('click', function(e){
 		// e.preventDefault();
 		$('.scenario-button').removeClass('active');
-		$(this).addClass('active')
+		$(this).addClass('active');
 		filterScenario($(this).text());
 
 	});
@@ -49,7 +49,7 @@ $(document).ready(function(){
 
 		});
 
-		if (show === $('#intro')){
+		if (show.is("#intro")){
 			$('.intro-link').addClass("active").siblings("li").removeClass("active");
 
 

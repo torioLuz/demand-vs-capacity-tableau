@@ -8,11 +8,6 @@
 */
 
 
-body {
-	padding-top: 70px;
-}
-
-
 
 /*
 /
@@ -35,19 +30,6 @@ body {
 /
 */
 
-.button-intro-container {
-
-	text-align: center;
-}
-
-.button-intro {
-	margin: auto;
-}
-
-#analysis {
-	display: none;
-
-}
 
 
 /*
@@ -57,3 +39,7 @@ body {
 /
 /
 */
+
+#analysis {
+	display:none;
+}
