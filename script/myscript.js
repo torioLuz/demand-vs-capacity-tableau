@@ -10,8 +10,8 @@ $(document).ready(function(){
 	var url = "http://public.tableausoftware.com/views/ProjectDemandvsSkillCapacity/Dashboard1";
 	var options = {
 		hideTabs: true,
-		width: "1100px",   
-		height: "700px",
+		width: "1200px",   
+		height: "600px",
 		onFirstInteractive: function () {
 			workbook = viz.getWorkbook();
 			activeSheet = workbook.getActiveSheet();
