@@ -7,7 +7,17 @@
 /
 */
 
+<<<<<<< HEAD
 
+=======
+body {
+	padding-top: 70px;
+}
+
+h4 {
+	line-height: 50px;
+}
+>>>>>>> master
 
 /*
 /
@@ -30,7 +40,12 @@
 /
 */
 
-
+<<<<<<< HEAD
+=======
+.btn-group {
+	margin-bottom: 20px;
+}
+>>>>>>> master
 
 /*
 /
@@ -42,4 +57,8 @@
 
 #analysis {
 	display:none;
+<<<<<<< HEAD
+=======
+	width: 100%;
+>>>>>>> master
 }
