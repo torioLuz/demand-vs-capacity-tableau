@@ -8,6 +8,11 @@
 */
 
 
+body {
+	padding-top: 70px;
+}
+
+
 
 /*
 /
@@ -30,6 +35,19 @@
 /
 */
 
+.button-intro-container {
+
+	text-align: center;
+}
+
+.button-intro {
+	margin: auto;
+}
+
+#analysis {
+	display: none;
+
+}
 
 
 /*

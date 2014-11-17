@@ -9,12 +9,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
 
 	<!-- own css styling -->
 	<link rel="stylesheet" href="css/style.css">
@@ -29,10 +24,10 @@
 	  		</div>	
 	  		<div class="navbar-collapse collapse">
 	  			<ul class="nav navbar-nav navbar-right">
-	  				<li class="active">
-	  					<a href="#intro">Intro</a>
+	  				<li class="intro-link active">
+	  					<a  href="#intro">Intro</a>
   					</li>
-	  				<li>
+	  				<li class="analysis-link">
 	  					<a href="#analysis">Analysis</a>
 					</li>
 	  			</ul>
@@ -54,12 +49,15 @@
 				<section id="intro">
 					<div class="jumbotron">
 						<h1>Welcome!</h1>
-						<p>This site contains a Project Demand vs Skill Analysis of a fictitious company who is recently pursuing its global expansion.</p>
-						<p>To succeed in its mission, many projects have to be completed - each requiring a set of skills possessed by its resources. At the high level, there doesn't seem to be any skill capacity shortages. However, drill down and you will see certain skill sets that have become a bottleneck in certain months. </p>
-						<p>There are 2 available scenarios. First scenario is the baseline where skill shortage issues are left unaddressed. The second scenario shows the company's attempt to mitigate the shortages by increasing capacity from certain periods.  
-
-
-
+						<p>The chart visualizes project demand vs skill capacity analysis of a fictitious company who is recently pursuing its global expansion.</p>
+						<p>To succeed in its mission, many projects have to be completed - each requiring a set of skills possessed by its resources. At the total level, there doesn't seem to be any skill capacity shortages. However, drill down at each skill and you will see certain skills that have become a bottleneck in certain months. </p>
+						<p>There are 2 available scenarios. The first scenario is the <b>Baseline</b> where skill shortage issues are left unaddressed. The second scenario is <b>Replan 1</b>, which shows the company's attempt to mitigate the shortages by increasing capacity from certain periods.</p>  
+						<div class="button-intro-container">
+							<button type="button" class="btn btn-inverse btn-lg button-intro">
+								<span class="glyphicon glyphicon-play" aria-hidden="true">	
+								</span> See the Chart!
+							</button>
+						</div>
 					</div>
 
 				</section>
@@ -67,6 +65,7 @@
 
 			
 				<section id="analysis">
+					<span class="label label-primary">Choose Scenario</span>
 					<div class="btn-group">
 						<button type="button" class="btn btn-default scenario-button">Baseline</button>
 						<button type="button" class="btn btn-default scenario-button">Replan 1</button>
